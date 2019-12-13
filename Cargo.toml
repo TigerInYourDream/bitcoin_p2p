@@ -1,0 +1,16 @@
+[package]
+name = "bitcoin_p2p"
+version = "0.1.0"
+authors = ["TigerInYourDream <zyzzz0928@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = "0.4.0"
+bitcoin_hashes = "0.7.1"
+bitcoin = "0.21.0"
+hmac-sha256 = "0.1.2"
+tokio = { version = "0.2", features = ["full"] }
+log = "0.4.8"
+simple_logger = "1.3.0"
